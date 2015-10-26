@@ -166,7 +166,7 @@ void remplir_tableau(int tableau[LIGNES][COLONES])
             if(ligne < 0 || ligne > LIGNES)
             {
                 printf("ERREUR VALEUR NON AUTORISER !");
-                exit(0);
+                exit(1);
             }
 
             printf("Rentrez une colone: ");
